@@ -1,0 +1,18 @@
+body {
+  background-color: aquamarine;
+}
+
+#allButtons {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.button {
+  /* color: white;
+  background-color: black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
