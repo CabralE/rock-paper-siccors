@@ -2,12 +2,28 @@ body {
   background-color: aquamarine;
 }
 
+#title {
+  text-align: center;
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+p {
+  margin: auto;
+  padding: 0 200px 0 200px;
+}
+
 #allButtons {
   margin: 0;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+  padding-top: 25px;
+  text-align: center;
 }
 .button {
   /* color: white;
@@ -15,4 +31,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center; */
+}
+
+#results {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
 }
